@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+- (IBAction)imageView1Click:(UITapGestureRecognizer *)sender;
+- (IBAction)imageView2Click:(UITapGestureRecognizer *)sender;
+- (IBAction)imageView3Click:(UITapGestureRecognizer *)sender;
+
+
 @end
 
