@@ -46,9 +46,7 @@
     HCPhotoEditViewController *editController = [[HCPhotoEditViewController alloc] init];
     editController.oriImage = imageView.image;
     editController.delegate = self;
-    [self presentViewController:editController animated:YES completion:^{
-        
-    }];
+    [self presentViewController:editController animated:YES completion:nil];
 }
 
 
